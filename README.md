@@ -3,7 +3,6 @@ Product landing page certification project for freeCodeCamp Responsive Web Desig
 
 ## My comments
 
-
 ## Project requirements
 
 Objective: Build an app that is functionally similar to https://product-landing-page.freecodecamp.rocks
