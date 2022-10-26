@@ -1,0 +1,30 @@
+/*
+13 - Navbar should always be at the top of the page
+14 - At least one media query
+15 - Use flexbox at least once
+*/
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* element styling */
+
+/* class styling */
+
+/* id styling */
+
+#header-img {
+    background-color: bisque;
+    width: 100px;
+    height: 100px;
+}
+
+#header {
+    display: flex;
+}
+
