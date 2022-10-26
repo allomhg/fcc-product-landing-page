@@ -19,11 +19,20 @@ html {
 /* element styling */
 
 main {
-    margin: calc(var(--nav-height) + 1rem) 1rem 1rem 1rem;
+    margin: calc(var(--nav-height) + 1rem) 5% 1rem 5%;
 }
 
 a {
     color: #1b1c1b; 
+}
+
+footer {
+    display: flex;
+    margin: 0 5% 0 5%;
+}
+
+footer div {
+    flex: 1;
 }
 
 /* class styling */
@@ -32,10 +41,20 @@ a {
     text-decoration: none;
 }
 
+.card {
+    margin: 1rem;    
+    background-color: antiquewhite;
+}
+
+.container {
+    margin: auto;
+}
+
 /* id styling */
 
 #header {
     display: flex;
+    align-items: center;
     position: fixed;
     top: 0;
     box-shadow: 0 .25rem .75rem grey;
@@ -51,17 +70,23 @@ a {
 }
 
 #nav-bar {
-    display: flex;
     flex: 75%;
+}
+
+#nav-list {
+    display: flex;
+    justify-content: left;
+    align-items: center;
 }
 
 #nav-bar li {
     list-style: none;
     display: inline;
+    margin: 0 2rem 0 2rem;
 }   
 
 #product {
-    margin: 1rem auto;
+    margin: 0 auto;
     background-color: thistle;
 }
 
@@ -71,7 +96,6 @@ a {
 
 #sources {
     display: flex;
-    background-color: brown;
 }
 
 /* media */

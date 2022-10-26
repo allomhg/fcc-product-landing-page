@@ -15,7 +15,7 @@
         <header id="header">
             <img id="header-img" src="" alt="Company logo">
             <nav id="nav-bar">
-                <ul>
+                <ul id="nav-list">
                     <li><a class="nav-link" href="#product">Our Product</a></li> 
                     <li><a class="nav-link" href="#pricing">Plan Pricing</a></li>
                     <li><a class="nav-link" href="#sources">Our Sources</a></li> 
@@ -26,20 +26,12 @@
         <main>
             <section id="product">
                 <h1>Fresh, healthy meals right to your doorstep!</h1>
+                <h2>Save yourself money and time! While supporting ethical farming!</h2>
                 <video id="video" src="" width="320px" controls> 
                     <source src="" type="">
                     Video is not supported by your browser.
                 </video>
-            </section>
-
-            <section id="pricing">
-                <form id="form" action="https://www.freecodecamp.com/email-submit"> 
-                    <label for="email">
-                        Email: <input id="email" name="email" type="email" placeholder="Enter your email address"> 
-                    </label>
-                    <input id="submit" name="submit" type="submit" value="Submit Email"> 
-                </form>
-            </section>
+            </section> <!-- end #product section -->
 
             <section id="sources">
                 <div class="card">
@@ -82,10 +74,30 @@
                         Lorem ipsum dolor sit amet
                     </p>
                 </div>
-            </section>
+            </section> <!-- end #sources section -->
+
+            <section id="pricing">
+                <div class="container">
+                    <h2>Sign-up today to receive exclusive offers and discounts!</h2>
+                    <p>Registration details will arrive in your inbox after submitting your email address</p>
+                    <form id="form" action="https://www.freecodecamp.com/email-submit"> 
+                        <label for="email">
+                            Email: <input id="email" name="email" type="email" placeholder="Enter your email address"> 
+                        </label>
+                        <input id="submit" name="submit" type="submit" value="Submit Email"> 
+                    </form>
+                </div>
+            </section> <!-- end #pricing section -->
         </main>
+
         <footer>
-            <!-- Add footer content here -->
+            <div>
+                <a>Back to top</a>
+            </div>
+
+            <div>
+                <p>Copyright Imaginary Company 2022</p>
+            </div>
         </footer>
     </body>
 </html>
